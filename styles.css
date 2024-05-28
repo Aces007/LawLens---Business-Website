@@ -829,7 +829,7 @@ body {
     content: attr(data-text);
     position: absolute;
     inset: 20px;
-    background: var(--clr-accent);
+    background: var(--clr-percent-bg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
