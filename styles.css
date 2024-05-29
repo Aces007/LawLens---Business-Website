@@ -1303,89 +1303,110 @@ body {
     margin-bottom: 5rem;
 }
 
-
-.port_cont .port_content .photo_showcase .photo_box {
-    display: grid;
-    grid-template-columns: repeat (20, 1fr);
-    grid-template-rows: repeat (40, 10vw);
-    grid-gap: 68px;
+.photo_showcase { 
+   display: grid;
+   grid-template-columns: repeat(16, 1fr);
+   grid-template-rows: repeat(30, 5vw);
+   grid-gap: 10px;
+   width: 1100px;
+   border: 2px red solid;
 }
 
-
-.port_cont .port_content .photo_showcase .photo_box img {
-    width: 600px;
-    height: 350px;
-    object-fit: fill;
+.photo_showcase .gallery_pics img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     position: relative;
     z-index: 1100;
-    transition: transform .2s;
-    border: 4px var(--clr-text) solid; 
-    border-radius: 10px;
+    border: 3px var(--clr-text) solid;
 }
 
-.port_cont .port_content .photo_showcase .photo_box img:hover {
-    transform: scale(1.2);
-}
-
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label h3 {
-    border: 3px solid var(--clr-accent);
-    width: 440px;
-    padding: 0.8rem;
-    text-align: center;
-    border-radius: 8px;
-    background-color: var(--clr-secondary);
-    font-family: var(--ff-IBM);
-    color: var(--clr-accent);
-    font-size: 22px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label a {
-    text-decoration: none;
-}
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label h3:hover {
-    background: linear-gradient( var(--clr-highlight-3), var(--clr-highlight-2));
-    color: var(--clr-primary);
-}
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label h4 {
-    border: 3px solid var(--clr-accent);
-    width: 200px;
-    padding: 0.8rem;
-    text-align: center;
-    border-radius: 8px;
-    background-color: var(--clr-secondary);
-    font-family: var(--ff-IBM);
-    color: var(--clr-accent);
-    font-size: 18px;
-    margin-top: 0;
-}
-
-.port_cont .port_content .photo_showcase .photo_box .photo_box-label h4:hover {
-    background: linear-gradient( var(--clr-highlight-3), var(--clr-highlight-2));
-    color: var(--clr-primary);
-}
-
-.port_cont .port_content .photo_showcase .photo_box #box_1 {
+    /*#region Photos */
+.photo_showcase #gal_1 { 
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 10;
+    grid-row-end: 6;
+    
 }
-.port_cont .port_content .photo_showcase .photo_box #box_2 {
-    grid-column-start: 5;
-    grid-column-end: 10;
+
+.photo_showcase #gal_2 { 
+    grid-column-start: 9;
+    grid-column-end: 17;
     grid-row-start: 1;
-    grid-row-end: 10;
+    grid-row-end: 6;
 }
+
+.photo_showcase #gal_3 { 
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 12;
+} 
+
+.photo_showcase #gal_4 { 
+    grid-column-start: 11;
+    grid-column-end: 17;
+    grid-row-start: 6;
+    grid-row-end: 12;
+} 
+
+.photo_showcase #gal_5{ 
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 12;
+    grid-row-end: 18;
+} 
+
+.photo_showcase #gal_6 { 
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end: 18;
+} 
+
+.photo_showcase #gal_7 { 
+    grid-column-start: 12;
+    grid-column-end: 17;
+    grid-row-start: 12;
+    grid-row-end: 18;
+} 
+
+.photo_showcase #gal_8 { 
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 18;
+    grid-row-end: 24;
+} 
+
+.photo_showcase #gal_9 { 
+    grid-column-start: 6;
+    grid-column-end: 17;
+    grid-row-start: 18;
+    grid-row-end: 24;
+} 
+
+.photo_showcase #gal_10 { 
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 24;
+    grid-row-end: 30;
+} 
+
+.photo_showcase #gal_11 { 
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 24;
+    grid-row-end: 30;
+} 
+
+.photo_showcase #gal_12 { 
+    grid-column-start: 12;
+    grid-column-end: 17;
+    grid-row-start: 24;
+    grid-row-end: 30;
+} 
+    /*#endregion Photos */
+
+
 /*#endregion Portfolio */
