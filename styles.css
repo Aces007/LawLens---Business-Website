@@ -1309,7 +1309,6 @@ body {
    grid-template-rows: repeat(30, 5vw);
    grid-gap: 10px;
    width: 1100px;
-   border: 2px red solid;
 }
 
 .photo_showcase .gallery_pics img {
@@ -1319,6 +1318,11 @@ body {
     position: relative;
     z-index: 1100;
     border: 3px var(--clr-text) solid;
+    transition: transform .2s;
+}
+
+.photo_showcase .gallery_pics img:hover {
+    transform: scale(0.9);
 }
 
     /*#region Photos */
