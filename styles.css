@@ -1096,8 +1096,8 @@ body {
 
 .port_cont .port_content .port_showcase .port_box {
     display: grid;
-    grid-template-columns: repeat (20, 1fr);
-    grid-template-rows: repeat (80, 10vw);
+    grid-template-columns: repeat (30, 1fr);
+    grid-template-rows: repeat (90, 10vw);
     grid-gap: 68px;
 }
 
@@ -1225,6 +1225,30 @@ body {
     grid-column-end: 10;
     grid-row-start: 40;
     grid-row-end: 50;
+}
+.port_cont .port_content .port_showcase .port_box #box_11 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 50;
+    grid-row-end: 60;
+}
+.port_cont .port_content .port_showcase .port_box #box_12 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 50;
+    grid-row-end: 60;
+}
+.port_cont .port_content .port_showcase .port_box #box_13 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 60;
+    grid-row-end: 70;
+}
+.port_cont .port_content .port_showcase .port_box #box_14 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 60;
+    grid-row-end: 70;
 }
 
 
